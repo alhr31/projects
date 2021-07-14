@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>611</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>39</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>30</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>37</number>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поставки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Продажа</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Обновить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Товары</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Анализ остатков</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>785</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
